@@ -1,6 +1,6 @@
 
 <?php
-include("server.php");
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,13 +17,11 @@ include("server.php");
     <body>
        
         <div class="card">
-            <p><a href="first.html"></a></p>
+            <p> Task one <a href="first.html">here </a></p>
             
         </div>
         <div>
-            <p>
-                <a href="second.html"></a>
-            </p>
+            <p>Task two<a href="second.html"> here</a> </p>
         </div>
     
     </body>
