@@ -19,8 +19,8 @@
         <div class="exercise">
             <p> Task one<a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
             
-        </div class="exercise">
         <div>
+        <div class="exercise">
             <p>Task two <a href="second.html"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
     
