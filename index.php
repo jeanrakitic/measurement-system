@@ -16,12 +16,12 @@
     </head>
     <body>
        
-        <div class="card">
-            <p> Task one <a href="first.html">here </a></p>
+        <div class="exercise">
+            <p> Task one<a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
             
-        </div>
+        </div class="exercise">
         <div>
-            <p>Task two<a href="second.html"> here</a> </p>
+            <p>Task two <a href="second.html"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
     
     </body>
