@@ -27,16 +27,19 @@ while ($row = mysqli_fetch_array ($result)) {
 $id = $row[0];
 $address = $row[1];
 $port = $row[2];
+$status;    
 print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
 
 $fp = @fsockopen($host, $port, $errno, $errstr, 30);
-echo 'Host '.$host.':'.$port.' is '.$status;
 if ($fp) 
 { 
-    echo $status="ok"; 
+    $status="ok"; 
+    echo $status;
 } else 
 { 
-    echo $status="$errstr ($errno)"; 
+    
+        $status="$errstr ($errno)"; 
+    echo $status;
 }
 
 }
