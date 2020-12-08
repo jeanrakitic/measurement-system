@@ -33,12 +33,12 @@ $fp = @fsockopen($host, $port, $errno, $errstr, 30);
 if ($fp) 
 { 
     $status="ok"; 
-    echo $status;
+    
 } else 
 { 
     
         $status="$errstr ($errno)"; 
-    echo $status;
+    
 }
 print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
 }
