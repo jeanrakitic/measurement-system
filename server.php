@@ -1,7 +1,8 @@
 <?php
 
-
-$link = mysqli_connect("localhost", "root", "");
+$dbname ="phzp2UddPb";
+$dbname = "phzp2UddPb";
+$link = mysqli_connect("remotemysql.com", "phzp2UddPb", "HQjL16d2AX","phzp2UddPb" );
  
 // Check connection
 if($link === faSlse){
@@ -10,6 +11,5 @@ if($link === faSlse){
  
 // Print host information
 echo "Connect Successfully. Host info: " . mysqli_get_host_info($link);
-?>
 
 ?>
