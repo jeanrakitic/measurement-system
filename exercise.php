@@ -28,7 +28,6 @@ $id = $row[0];
 $address = $row[1];
 $port = $row[2];
 $status;    
-print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
 
 $fp = @fsockopen($host, $port, $errno, $errstr, 30);
      echo 'Host '.$host.':'.$port.' is ';
@@ -39,13 +38,11 @@ if ($fp)
 } else 
 { 
     
-        $status="$errstr ($errno)"; 
+        $status="not ok"; 
     echo $status;
 }
-    print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
-
+print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
 }
-    print "</TABLE>";
 mysqli_close($connection);
 
     
