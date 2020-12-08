@@ -1,6 +1,6 @@
 
 <?php
-
+include("server.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,6 +23,11 @@
         <div class="exercise">
             <p>Task two <a href="second.html"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
+            <div class="exercise">
+            <p>Task two <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
+        </div>
+            
+            
     
     </body>
     </html>
