@@ -8,7 +8,11 @@
 <?php
 
 
-$dbhost="remotemysql.com "; $dbuser="phzp2UddPb"; $dbpassword="HQjL16d2AX"; $dbname="phzp2UddPb";
+
+    $dbhost="remotemysql.com"; 
+    $dbuser="phzp2UddPb";
+    $dbpassword="HQjL16d2AX";
+    $dbname="phzp2UddPb";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$connection) {
 echo " MySQL Connection error." . PHP_EOL;
