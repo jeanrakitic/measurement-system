@@ -5,7 +5,7 @@ $dbname = "phzp2UddPb";
 $link = mysqli_connect("remotemysql.com", "phzp2UddPb", "HQjL16d2AX","phzp2UddPb" );
  
 // Check connection
-if($link === faSlse){
+if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
  
