@@ -31,6 +31,7 @@ $status;
 print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
 
 $fp = @fsockopen($host, $port, $errno, $errstr, 30);
+     echo 'Host '.$host.':'.$port.' is ';
 if ($fp) 
 { 
     $status="ok"; 
@@ -41,10 +42,10 @@ if ($fp)
         $status="$errstr ($errno)"; 
     echo $status;
 }
+    print "<TR><TD>$id</TD><TD>$address</TD> <TD>$port</TD><TD>$status</TD> </TR>\n";
 
 }
-
-
+    print "</TABLE>";
 mysqli_close($connection);
 
     
