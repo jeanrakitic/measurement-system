@@ -1,7 +1,10 @@
 <?php
 $ipaddress = $_SERVER["REMOTE_ADDR"];
 
-$dbhost="localhost"; $dbuser="id15599358_sanjar95"; $dbpassword="Narzikulov95%"; $dbname="id15599358_sanjar";
+ $dbhost="remotemysql.com"; 
+    $dbuser="phzp2UddPb";
+    $dbpassword="HQjL16d2AX";
+    $dbname="phzp2UddPb";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$connection) {
 echo " MySQL Connection error." . PHP_EOL;
@@ -9,7 +12,7 @@ echo "Errno: " . mysqli_connect_errno() . PHP_EOL;
 echo "Error: " . mysqli_connect_error() . PHP_EOL;
 exit;
 }
-mysqli_query($connection, "INSERT INTO googLink (Address) VALUES('$ipaddress')") or die ("DB error: $dbname");
+mysqli_query($connection, "INSERT INTO second (Address) VALUES('$ipaddress')") or die ("DB error: $dbname");
 
 $result = mysqli_query($connection, "SELECT * FROM googLink") or die ("DB error: $dbname");
 print "<TABLE CELLPADDING=5 BORDER=1 >";
