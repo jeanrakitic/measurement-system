@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="refresh" content="10" />
 <title>Jean-Noel  Nyirisheja</title>
@@ -40,3 +41,4 @@ mysqli_close($connection);
 ?>
  
  </body>
+</html>
