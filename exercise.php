@@ -44,7 +44,7 @@ $fp = @fsockopen($host, $port, $errno, $errstr, 30);
  mysqli_query($connection, "update hosts set FailedTime = '---' where Id = $id");
    
  } else {
-     $status= ' out-of-order ';
+     $status= "out-of-order";
      
       $h = mysqli_query($connection, "update hosts set failedCon = $failedCon + 1 where Id = $id");
      
