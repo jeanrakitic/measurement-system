@@ -28,7 +28,7 @@ include("server.php");
             <p>Z2 <a href="second.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
              <div class="exercise">
-            <p>Z2 <a href="third.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p>Z2 <a href="z3/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             
             
