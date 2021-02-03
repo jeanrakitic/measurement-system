@@ -19,16 +19,16 @@ include("server.php");
         <div class="exercise">
             <p> test purpose <a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
             
-        <div>
+        </div>
             <div class="exercise">
             <p>Exersice one <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
-            </div>
+            
             <div class="exercise">
             <p>Z2 <a href="second.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
              <div class="exercise">
-            <p>Z2 <a href="z3/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p>Z3 <a href="z3/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             
             
