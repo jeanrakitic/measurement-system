@@ -21,7 +21,7 @@ include("server.php");
             
         <div>
         <div class="exercise">
-            <p>Task two <a href="second.html"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p>Task two <a href="second.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             <div class="exercise">
             <p>Exersice one <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
