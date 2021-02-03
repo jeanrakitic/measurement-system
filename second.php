@@ -1,3 +1,12 @@
+
+<head>
+<meta http-equiv="refresh" content="10" />
+<title>Jean-Noel  Nyirisheja</title>
+
+</head>
+
+<body>
+
 <?php
 $ipaddress = $_SERVER["REMOTE_ADDR"];
 
@@ -29,3 +38,5 @@ print "</TABLE>";
 
 mysqli_close($connection);
 ?>
+ 
+ </body>
