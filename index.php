@@ -17,14 +17,15 @@ include("server.php");
     <body>
        
         <div class="exercise">
-            <p> Task one<a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
+            <p> test purpose <a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
             
         <div>
-        <div class="exercise">
-            <p>Task two <a href="second.php"><i class="fas fa-paperclip"> </i> </a> </p>
-        </div>
             <div class="exercise">
             <p>Exersice one <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
+        </div>
+            </div>
+            <div class="exercise">
+            <p>Z2 <a href="z2.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             
             
