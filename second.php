@@ -24,7 +24,7 @@ exit;
 }
 mysqli_query($connection, "INSERT INTO second (Address) VALUES('$ipaddress')") or die ("DB error: $dbname");
 
-$result = mysqli_query($connection, "SELECT * FROM googLink") or die ("DB error: $dbname");
+$result = mysqli_query($connection, "SELECT * FROM second") or die ("DB error: $dbname");
 print "<TABLE CELLPADDING=5 BORDER=1 >";
 print "<TR><TD>id</TD><TD>Address</TD><TD>Date/Time</TD><TD>Map Link</TD></TR>\n";
 while ($row = mysqli_fetch_array ($result)) {
