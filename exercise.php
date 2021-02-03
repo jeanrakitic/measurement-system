@@ -27,7 +27,7 @@ while ($row = mysqli_fetch_array ($result)) {
 $id = $row[0];
 $address = $row[1];
 $port = $row[2];
-$status;    
+$status = $row[3];    
 
 $fp = @fsockopen($host, $port, $errno, $errstr, 30);
 if ($fp) 
