@@ -10,4 +10,7 @@ $plot->DrawGraph();
 ?>
 
 <html>
+  
+  phplot
+  
 </html>
