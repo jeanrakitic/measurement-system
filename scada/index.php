@@ -10,7 +10,7 @@ $plot->DrawGraph();
 ?>
 
 <html>
+  <body> <p> graph here </p> </body>
   
-  <p> graph here  </p>
   
 </html>
