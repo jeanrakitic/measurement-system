@@ -1,5 +1,5 @@
 <?php
-include('phplot.php');
+require 'phplot.php';
 $data = array(array('', 10), array('', 1));
 $plot = new PHPlot();
 $plot->SetDataValues($data);
