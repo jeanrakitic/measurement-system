@@ -11,6 +11,6 @@ $plot->DrawGraph();
 
 <html>
   
-  phplot
+  <p> graph here  </p>
   
 </html>
