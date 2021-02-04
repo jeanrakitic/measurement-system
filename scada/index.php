@@ -1,6 +1,4 @@
-<DOCTYPE html>
-<html>
-<body> 
+
 <?php
 require_once 'phplot.php';
 $plot = new PHPlot();
@@ -11,5 +9,5 @@ $plot->SetTitle('The example of the graph');       // optional title of the grap
 $plot->DrawGraph();
 ?>
 
-</body>
+<html>
 </html>
