@@ -30,6 +30,10 @@ include("server.php");
              <div class="exercise">
             <p>Z3 <a href="z3/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
+        
+            <div class="exercise">
+            <p>Z3 <a href="scada/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
+        </div>
             
             
     
