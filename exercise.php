@@ -2,7 +2,7 @@
  <html>
 
 <head>
-<meta http-equiv="refresh" content="10" />
+<meta http-equiv="refresh" content="1000" />
 <title>Jean-Noel  Nyirisheja</title>
 
 </head>
