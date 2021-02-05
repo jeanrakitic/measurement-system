@@ -1,9 +1,11 @@
 <?php
 include 'Index.php';
-$dbhost="localhost";
-$dbuser="id15599358_sanjar95"; 
-$dbpassword="Narzikulov95%"; 
-$dbname="id15599358_sanjar";
+
+    $dbhost="remotemysql.com"; 
+    $dbuser="phzp2UddPb";
+    $dbpassword="HQjL16d2AX";
+    $dbname="phzp2UddPb";
+$connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$connection) {
@@ -39,8 +41,6 @@ $msg = $row[3];
 
 print "<TR><TD>$id</TD><TD>$nick</TD><TD>$msg</TD><TD>$time</TD></TR>\n";
 
-$file = fopen ("conversation.txt", "a+");
-fwrite ($file, $text);
 }
 print "</TABLE>";
 
