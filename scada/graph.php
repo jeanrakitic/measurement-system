@@ -4,7 +4,7 @@
     $dbpassword="HQjL16d2AX";
     $dbname="phzp2UddPb";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
-$result = mysqli_query($connection, "SELECT * FROM measurements ORDER BY id DESC LIMIT 5") or die ("DB error: $dbname");
+$result = mysqli_query($connection, "SELECT * FROM measurement ORDER BY id DESC LIMIT 5") or die ("DB error: $dbname");
     
 require_once 'phplot.php';
 $plot = new PHPlot(1000,1000);
