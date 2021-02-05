@@ -32,7 +32,7 @@ include("server.php");
         </div>
         
             <div class="exercise">
-            <p>z4 <a href="scada/test.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p>z4 <a href="scada/graph.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             
             
