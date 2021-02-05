@@ -1,9 +1,10 @@
 <?php
 
-$dbhost="localhost";
-$dbuser="id15599358_sanjar95"; 
-$dbpassword="Narzikulov95%"; 
-$dbname="id15599358_sanjar";
+    $dbhost="remotemysql.com"; 
+    $dbuser="phzp2UddPb";
+    $dbpassword="HQjL16d2AX";
+    $dbname="phzp2UddPb";
+
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$connection) {
