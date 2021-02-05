@@ -49,6 +49,7 @@ $x5 = $row[5];
 <head> 
 </head>
 <body> 
+    <p> <h2>enter the values </h2> </p>
 <form method="POST">
 <br>
 x1:<input type="text" name="one" maxlength="10" size="10"><br>
@@ -59,7 +60,7 @@ x5:<input type="text" name="five" maxlength="10" size="10"><br>
 <input type="submit" name="button" value="Send"/>
 </form>
 
-<p> check graph <a href="graph.php">here </a> </p>
+<p> check graph<a href="graph.php"> here </a> </p>
 </body>
 </html> 
 
