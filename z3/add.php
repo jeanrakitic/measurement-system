@@ -1,5 +1,5 @@
 <?php
-include 'Index.php';
+include 'index.php';
 
     $dbhost="remotemysql.com"; 
     $dbuser="phzp2UddPb";
@@ -7,7 +7,6 @@ include 'Index.php';
     $dbname="phzp2UddPb";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 
-$connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$connection) {
 echo " MySQL Connection error." . PHP_EOL;
 echo "Errno: " . mysqli_connect_errno() . PHP_EOL;
