@@ -25,10 +25,10 @@ $five = $_POST['five'];
 //mysqli_query($connection, "UPDATE measurements SET  x1='$one', x2 ='$two', x3='$three', x4='$four', x5= '$five' WHERE 
 //id = 1") or die ("DB dfdf: $dbname"); 
 
-mysqli_query($connection, "INSERT INTO measurements (x1,x2,x3,x4,x5) VALUES('$one','$two','$three','$four','$five')") or die ("DB dfdf: $dbname"); 
+mysqli_query($connection, "INSERT INTO measurement (x1,x2,x3,x4,x5) VALUES('$one','$two','$three','$four','$five')") or die ("DB dfdf: $dbname"); 
 
 
-    $result = mysqli_query($connection, "SELECT * FROM measurements ") or die ("DB error: $dbname");
+    $result = mysqli_query($connection, "SELECT * FROM measurement ") or die ("DB error: $dbname");
      $row = mysqli_fetch_array ($result);
 $id = $row[0];
 $x1 = $row[1];
