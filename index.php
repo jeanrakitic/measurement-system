@@ -16,23 +16,20 @@ include("server.php");
     </head>
     <body>
        
-      //  <div class="exercise">
-       //     <p> test purpose <a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
-            
-       // </div>
+     
             <div class="exercise">
-            <p>Exersice one <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p>Exersice Z1 [1] <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             
             <div class="exercise">
-            <p>Z2 <a href="second.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p> Exercise Z2 [2]<a href="second.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
              <div class="exercise">
-            <p>Z3 <a href="z3/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p> Exercise Z3 [3]<a href="z3/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
         
             <div class="exercise">
-            <p>z4 <a href="https://noelee.000webhostapp.com/Z4/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
+            <p> exercise z4 [4] currently not working <a href="https://noelee.000webhostapp.com/Z4/index.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
             
             
