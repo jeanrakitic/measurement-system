@@ -16,10 +16,10 @@ include("server.php");
     </head>
     <body>
        
-        <div class="exercise">
-            <p> test purpose <a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
+      //  <div class="exercise">
+       //     <p> test purpose <a href="first.html"><i class="fas fa-paperclip"></i> </a></p>
             
-        </div>
+       // </div>
             <div class="exercise">
             <p>Exersice one <a href="exercise.php"><i class="fas fa-paperclip"> </i> </a> </p>
         </div>
